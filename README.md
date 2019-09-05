@@ -1,4 +1,4 @@
-# -FIXED-Codeigniter-403-Form-Post-htaccess
+# FIXED Codeigniter 403 Form Post htaccess
 
 RewriteEngine on
  
