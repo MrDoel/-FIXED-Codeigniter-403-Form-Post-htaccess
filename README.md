@@ -1,0 +1,1 @@
+# -FIXED-Codeigniter-403-Form-Post-htaccess
