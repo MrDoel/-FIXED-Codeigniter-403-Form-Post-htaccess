@@ -1,12 +1,13 @@
 # FIXED Codeigniter 403 Form Post htaccess
 
 ```
-RewriteEngine on
- 
+RewriteEngine On
+
 SecFilterEngine Off
 SecFilterScanPOST Off
- 
-RewriteCond $1 !^(index\.php|assets|css|js|plugin)
- 
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php/$1 [L]
 ```
